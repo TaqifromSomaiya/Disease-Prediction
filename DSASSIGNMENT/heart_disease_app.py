@@ -14,7 +14,7 @@ import streamlit as st
 # Load Dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("DSASSIGNMENT\dataset_heart.csv")  # Change filename if needed
+    df = pd.read_csv("DSASSIGNMENT/dataset_heart.csv")  # Change filename if needed
     return df
 
 df = load_data()
